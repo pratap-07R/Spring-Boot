@@ -16,6 +16,12 @@
 
 4. SPRING BOOT ANNOTATIONS
     -> @springBootApplication
+            => this component use only one time in one project and only in main file 
+            there are three work of this component 
+            1.@Configration
+            2.@EnableAutoConfigration
+            3.@ComponentScan
+
     -> @Controler
     -> RestControler
     -> @RequestMapping
@@ -23,6 +29,12 @@
     -> @DeletMapping
     -> @AutoWired
     -> @component
+            -> if any class have "@Component" then this annotaion bring that class 
+            that means class is automatically registerd in Spring bean
+            note = you can use this annotation everywhere like class, interface, method, field and function 
+            etc.
+            this component bring this class in IOC container
+
     -> @Service
     -> @Repositary
     -> @ComponentScan
